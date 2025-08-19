@@ -14,7 +14,7 @@
 #$ INCLUDE: presets/4.4/other/R9_common_drone_settings.txt
 #$ INCLUDE: presets/4.4/other/R9_kamikaze_failsafe.txt
 
-#$ OPTION_GROUP BEGIN: (EXCLUSIVE) VTX power levels
+#$ OPTION_GROUP BEGIN (EXCLUSIVE): VTX power levels
   #$ OPTION BEGIN (CHECKED): 4 levels
     vtx 0 2 0 0 1 900 1300
     vtx 1 2 0 0 2 1300 1700
